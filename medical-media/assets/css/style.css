@@ -1,0 +1,198 @@
+.header-menu .navbar .nav-item .nav-link {
+  font-weight: 500;
+  line-height: 24px;
+  color: #fff;
+  display: block;
+  padding: 16px 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.header-top {
+  background-color: #047eb3;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.24);
+}
+
+.header-top .header-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-top .header-wrapper a {
+  color: #fff;
+  font-weight: 500;
+}
+
+.header-top .header-wrapper .logo {
+  padding: 16px 0;
+}
+
+.header-top .header-wrapper .search-login form {
+  position: relative;
+  display: inline-block;
+}
+
+.header-top .header-wrapper .search-login form input {
+  background: #fff;
+  border-radius: 12px;
+  font-weight: 400;
+  font-size: 16px;
+  border: none;
+  padding: 10px 10px 10px 55px;
+  width: 220px;
+}
+
+.header-top .header-wrapper .search-login form button {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  background: none;
+  border: none;
+}
+
+.header-top .header-wrapper .search-login a {
+  font-size: 16px;
+  margin-left: 35px;
+}
+
+.header-top .header-wrapper .search-login a:hover {
+  color: #fff;
+}
+
+.header-top .header-wrapper .media-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-top .header-wrapper .media-links .media-link {
+  font-size: 24px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 55px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+}
+
+.header-top .header-wrapper .media-links .media-link .icon {
+  display: inline-block;
+  margin-right: 12px;
+  width: 24px;
+  height: 24px;
+}
+
+.header-top .header-wrapper .media-links .media-link .icon img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.header-menu {
+  background-color: #047eb3;
+}
+
+.header-menu .navbar .settings {
+  display: none;
+}
+
+.header-menu .navbar .nav-item {
+  margin-right: 50px;
+}
+
+.header-menu .navbar .nav-item .nav-link {
+  line-height: 24px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .logo img {
+    height: 26px;
+  }
+  .media-link {
+    font-size: 12px !important;
+  }
+  .search-login input {
+    height: 30px;
+    width: 165px;
+  }
+  .search-login a {
+    font-size: 13px !important;
+  }
+  .search-login button {
+    top: 2px !important;
+  }
+  .nav-item {
+    margin-right: 40px !important;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .logo img {
+    height: 26px;
+  }
+  .navbar .settings {
+    display: block !important;
+    margin-right: 10px;
+    color: white;
+  }
+  .search-login input {
+    display: none;
+  }
+  .search-login button {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+  }
+  .search-login a {
+    margin-left: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .media-link {
+    margin-right: 10px !important;
+  }
+  .media-link .icon {
+    width: 17px !important;
+    height: 17px !important;
+  }
+}
+
+@media only screen and (max-width: 498px) {
+  .media-link {
+    margin-right: 15px !important;
+  }
+  .media-link .icon {
+    margin-right: 0 !important;
+  }
+  .header-wrapper {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+/*# sourceMappingURL=style.css.map */

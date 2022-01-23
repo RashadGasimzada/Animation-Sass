@@ -1,0 +1,53 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+.navbar {
+    img {
+        height: 85px;
+    }
+    .navbar-nav {
+        .nav-item {
+            .nav-link {
+                font-weight: bolder;
+            }
+            
+        }
+    }
+}
+#info-and-img {
+    background-color: rgb(241,241,241);
+    img {
+        height: 250px
+    }
+}
+.learn-more-btn {
+    @extend %learn-more-btn;
+}
+.card {
+    border: none;
+    .card-body {
+        padding: 10px 0px 0px 0px;
+    }
+}
+.white-square {
+    @extend %time;
+    .time {
+        margin: 0;
+    }
+}
+@media only screen and (max-width: 992px) {
+    #info-and-img {
+        img {
+            height: 88%;
+            width: 100%;
+        }
+    }
+}
+@media only screen and (max-width: 500px) {
+    #info-and-img {
+        img {
+            height: auto;
+            max-width: 100%;
+        }
+    }
+}
